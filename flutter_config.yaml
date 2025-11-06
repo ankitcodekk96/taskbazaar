@@ -1,0 +1,22 @@
+name: taskbazaar
+description: A micro-task marketplace app
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.1.2
+  http: ^1.2.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
