@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "sizzle_starter",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "${workspaceFolder}/app",
+    },
+    {
+      "name": "sizzle_starter (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "${workspaceFolder}/app",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "sizzle_starter (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "${workspaceFolder}/app",
+      "flutterMode": "release"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+include: package:sizzle_lints/lints.yaml
+
+formatter:
+  page_width: 100
+  trailing_commas: preserve
+
+analyzer:
+  exclude:
+    - "lib/src/core/localization/generated/**"
+    - "**/*.*.dart"
+    - "**/generated/**"
+
+dart_code_metrics:
+  extends:
+    - package:sizzle_lints/dcm.yaml
